@@ -1,0 +1,90 @@
+2019-07-21 12:40:34  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com)
+2019-07-21 12:40:34  [ main:81 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token, request_param={"captcha": "777", "client_id": "66be6617e34f012809acdecf2699ecd3", "client_secret": "f82360eced6981bf00260457ddd41321", "grant_type": "mobile","mobile": "15958175507",
+  "plat": "pc"
+}, request_method=POST, param_type=JSON, assert_value=token, case_name=手机号登录
+)
+2019-07-21 12:40:35  [ main:885 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-07-21 12:40:35  [ main:1318 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:40:35  [ main:1319 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:40:36  [ main:1409 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:40:36  [ main:1409 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:40:36  [ main:1468 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:40:36  [ main:1468 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:41:22  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com)
+2019-07-21 12:41:22  [ main:77 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token, request_param={"captcha": "777", "client_id": "66be6617e34f012809acdecf2699ecd3", "client_secret": "f82360eced6981bf00260457ddd41321", "grant_type": "mobile","mobile": "15958175507",
+  "plat": "pc"
+}, request_method=POST, param_type=JSON, assert_value=token, case_name=手机号登录
+)
+2019-07-21 12:41:23  [ main:463 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-07-21 12:41:23  [ main:1028 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:41:23  [ main:1029 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:41:24  [ main:1168 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:41:24  [ main:1170 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:41:24  [ main:1264 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:41:24  [ main:1266 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:44:39  [ main:1 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com)
+2019-07-21 12:44:39  [ main:77 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token, request_param={"captcha": "777", "client_id": "66be6617e34f012809acdecf2699ecd3", "client_secret": "f82360eced6981bf00260457ddd41321", "grant_type": "mobile","mobile": "15958175507",
+  "plat": "pc"
+}, request_method=POST, param_type=JSON, assert_value=token, case_name=手机号登录
+)
+2019-07-21 12:44:39  [ main:493 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-07-21 12:44:40  [ main:1396 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:44:40  [ main:1397 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:44:40  [ main:1630 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:44:40  [ main:1631 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:44:41  [ main:1738 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:44:41  [ main:1739 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:46:47  [ main:1 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com)
+2019-07-21 12:46:47  [ main:87 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token, request_param={"captcha": "777", "client_id": "66be6617e34f012809acdecf2699ecd3", "client_secret": "f82360eced6981bf00260457ddd41321", "grant_type": "mobile","mobile": "15958175507",
+  "plat": "pc"
+}, request_method=POST, param_type=JSON, assert_value=token, case_name=手机号登录
+)
+2019-07-21 12:46:47  [ main:489 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-07-21 12:46:48  [ main:1143 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:46:48  [ main:1145 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:46:48  [ main:1283 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:46:48  [ main:1286 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:46:48  [ main:1428 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:46:48  [ main:1431 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:48:06  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com)
+2019-07-21 12:48:06  [ main:88 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token, request_param={"captcha": "777", "client_id": "66be6617e34f012809acdecf2699ecd3", "client_secret": "f82360eced6981bf00260457ddd41321", "grant_type": "mobile","mobile": "15958175507",
+  "plat": "pc"
+}, request_method=POST, param_type=JSON, assert_value=token, case_name=手机号登录
+)
+2019-07-21 12:48:07  [ main:518 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-07-21 12:48:07  [ main:1161 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:48:07  [ main:1163 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:48:07  [ main:1333 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:48:07  [ main:1336 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-07-21 12:48:07  [ main:1465 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+)
+2019-07-21 12:48:07  [ main:1466 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！

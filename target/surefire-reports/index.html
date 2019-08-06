@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-IOT接口测试">
+              <span class="suite-name border-failed">IOT接口测试</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-IOT接口测试">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-IOT接口测试">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-IOT接口测试">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-IOT接口测试">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-IOT接口测试">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-IOT接口测试">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-IOT接口测试">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-IOT接口测试" class="hide-methods failed suite-IOT接口测试"> (hide)</a> <!-- hide-methods failed suite-IOT接口测试 -->
+                      <a href="#" panel-name="suite-IOT接口测试" class="show-methods failed suite-IOT接口测试"> (show)</a> <!-- show-methods failed suite-IOT接口测试 -->
+                    </span>
+                    <div class="method-list-content failed suite-IOT接口测试">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOT接口测试" title="com.course.controller.SuiteTestCaseCenter" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-IOT接口测试 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-IOT接口测试" class="hide-methods passed suite-IOT接口测试"> (hide)</a> <!-- hide-methods passed suite-IOT接口测试 -->
+                      <a href="#" panel-name="suite-IOT接口测试" class="show-methods passed suite-IOT接口测试"> (show)</a> <!-- show-methods passed suite-IOT接口测试 -->
+                    </span>
+                    <div class="method-list-content passed suite-IOT接口测试">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOT接口测试" title="com.course.controller.SuiteTestCaseCenter" hash-for-method="testIotApi(IotApi(id=3, api_address=/polaris/user/cooperators/selection
+, request_param=, request_method=PUT, p...)">testIotApi(IotApi(id=3, api_address=/polaris/user/cooperators/selection
+, request_param=, request_method=PUT, p...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOT接口测试" title="com.course.controller.SuiteTestCaseCenter" hash-for-method="testIotApi(IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, asser...)">testIotApi(IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, asser...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-IOT接口测试" title="com.course.controller.SuiteTestCaseCenter" hash-for-method="testIotApi(IotApi(id=4, api_address=/polaris/user/userInfo, request_param=?, request_method=GET, param_type=STR...)">testIotApi(IotApi(id=4, api_address=/polaris/user/userInfo, request_param=?, request_method=GET, param_type=STR...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-IOT接口测试 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-IOT接口测试" class="panel IOT接口测试">
+          <div class="suite-IOT接口测试-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.course.controller.SuiteTestCaseCenter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.course.utils.ProUtil.getMultipleJson(ProUtil.java:91)
+	at com.course.controller.SuiteTestCaseCenter.login(SuiteTestCaseCenter.java:47)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-IOT接口测试-class-failed -->
+          <div class="suite-IOT接口测试-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.course.controller.SuiteTestCaseCenter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIotApi(IotApi(id=3, api_address=/polaris/user/cooperators/selection
+, request_param=, request_method=PUT, p...)">
+                  </a> <!-- testIotApi(IotApi(id=3, api_address=/polaris/user/cooperators/selection
+, request_param=, request_method=PUT, p...) -->
+                  <span class="method-name">testIotApi</span>
+                  <span class="parameters">(IotApi(id=3, api_address=/polaris/user/cooperators/selection
+, request_param=, request_method=PUT, param_type=STRING, assert_value=芙杨Test, case_name=选择运营商
+))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIotApi(IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, asser...)">
+                  </a> <!-- testIotApi(IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, asser...) -->
+                  <span class="method-name">testIotApi</span>
+                  <span class="parameters">(IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, assert_value=芙杨Test, case_name=管理员登录
+))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIotApi(IotApi(id=4, api_address=/polaris/user/userInfo, request_param=?, request_method=GET, param_type=STR...)">
+                  </a> <!-- testIotApi(IotApi(id=4, api_address=/polaris/user/userInfo, request_param=?, request_method=GET, param_type=STR...) -->
+                  <span class="method-name">testIotApi</span>
+                  <span class="parameters">(IotApi(id=4, api_address=/polaris/user/userInfo, request_param=?, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(异常2)))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-IOT接口测试-class-passed -->
+        </div> <!-- panel IOT接口测试 -->
+        <div panel-name="test-xml-IOT接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/zl/Documents/workspace/IotInterface/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;IOT接口测试&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.course.config.ExtentTestNGIReporterListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;testApi&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.course.controller.SuiteTestCaseCenter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testApi --&gt;
+&lt;/suite&gt; &lt;!-- IOT接口测试 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-IOT接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for IOT接口测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testApi (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-IOT接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for IOT接口测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-IOT接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for IOT接口测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_IOT接口测试');
+function tableData_IOT接口测试() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'com.course.controller.SuiteTestCaseCenter')
+data.setCell(0, 3, 588);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testIotApi')
+data.setCell(1, 2, 'com.course.controller.SuiteTestCaseCenter')
+data.setCell(1, 3, 175);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testIotApi')
+data.setCell(2, 2, 'com.course.controller.SuiteTestCaseCenter')
+data.setCell(2, 3, 160);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testIotApi')
+data.setCell(3, 2, 'com.course.controller.SuiteTestCaseCenter')
+data.setCell(3, 3, 125);
+window.suiteTableData['IOT接口测试']= { tableData: data, tableDiv: 'times-div-IOT接口测试'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-IOT接口测试">
+              </div> <!-- times-div-IOT接口测试 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-IOT接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for IOT接口测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-IOT接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-IOT接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.course.controller.SuiteTestCaseCenter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getRequestHost</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login</span>
+                <span class="method-start">574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIotApi(IotApi(id=2, api_address=/oauth/token, request_param=, request_method=POST, param_type=STRING, asser...)</span>
+                <span class="method-start">1559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIotApi(IotApi(id=3, api_address=/polaris/user/cooperators/selection
+, request_param=, request_method=PUT, p...)</span>
+                <span class="method-start">1720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIotApi(IotApi(id=4, api_address=/polaris/user/userInfo, request_param=?, request_method=GET, param_type=STR...)</span>
+                <span class="method-start">1896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">initialize</span>
+                <span class="method-start">2021 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

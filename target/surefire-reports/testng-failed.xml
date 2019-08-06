@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [IOT接口测试]">
+  <listeners>
+    <listener class-name="com.course.config.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="testApi(failed)">
+    <classes>
+      <class name="com.course.controller.SuiteTestCaseCenter">
+        <methods>
+          <include name="login"/>
+          <include name="getRequestHost"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.course.controller.SuiteTestCaseCenter -->
+    </classes>
+  </test> <!-- testApi(failed) -->
+</suite> <!-- Failed suite [IOT接口测试] -->

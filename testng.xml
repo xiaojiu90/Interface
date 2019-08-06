@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="IOT接口测试">
+    <parameter name="system.info" value="com.course.config.MySystemInfo"></parameter>
+    <test name="testApi">
+        <classes>
+            <class name="com.course.controller.SuiteTestCaseCenter"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

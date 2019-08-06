@@ -1,0 +1,21 @@
+2019-07-17 14:59:07  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com)
+2019-07-17 14:59:07  [ main:79 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/user/login, request_param={mobile: "15967115360", code: "12345", saasOrigin: 1}, request_method=POST, param_type=JSON, assert_value=token, case_name=登录接口)
+2019-07-17 14:59:07  [ main:343 ] - [ ERROR ]  http://sirius-dev.ortiot.com/user/login接口请求异常请排查!!!--->错误码为：404
+2019-07-17 14:59:08  [ main:853 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/polaris/user/userInfo?, request_param=null, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(正常))
+2019-07-17 14:59:08  [ main:964 ] - [ ERROR ]  http://sirius-dev.ortiot.com/polaris/user/userInfo?接口请求异常请排查!!!--->错误码为：401
+2019-07-17 14:59:10  [ main:3071 ] - [ INFO ]  iot_api表中id为3的查询结果是--->IotApi(id=3, api_address=/polaris/user/userInfo, request_param=, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(异常1))
+2019-07-17 14:59:10  [ main:3183 ] - [ ERROR ]  http://sirius-dev.ortiot.com/polaris/user/userInfo接口请求异常请排查!!!--->错误码为：401
+2019-07-17 14:59:12  [ main:5317 ] - [ INFO ]  iot_api表中id为4的查询结果是--->IotApi(id=4, api_address=/polaris/user/userInfo, request_param=?, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(异常2))
+2019-07-17 14:59:12  [ main:5428 ] - [ ERROR ]  http://sirius-dev.ortiot.com/polaris/user/userInfo接口请求异常请排查!!!--->错误码为：401
+2019-07-17 14:59:14  [ main:7578 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/polaris/user/userInfo?, request_param=null, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(正常))
+2019-07-17 14:59:14  [ main:7728 ] - [ ERROR ]  http://sirius-dev.ortiot.com/polaris/user/userInfo?接口请求异常请排查!!!--->错误码为：401
+2019-07-17 14:59:16  [ main:9786 ] - [ INFO ]  iot_api表中id为3的查询结果是--->IotApi(id=3, api_address=/polaris/user/userInfo, request_param=, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(异常1))
+2019-07-17 14:59:17  [ main:9892 ] - [ ERROR ]  http://sirius-dev.ortiot.com/polaris/user/userInfo接口请求异常请排查!!!--->错误码为：401
+2019-07-17 14:59:19  [ main:11935 ] - [ INFO ]  iot_api表中id为4的查询结果是--->IotApi(id=4, api_address=/polaris/user/userInfo, request_param=?, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(异常2))
+2019-07-17 14:59:19  [ main:12048 ] - [ ERROR ]  http://sirius-dev.ortiot.com/polaris/user/userInfo接口请求异常请排查!!!--->错误码为：401
+2019-07-17 14:59:21  [ main:14146 ] - [ INFO ]  iot_api表中id为2的查询结果是--->IotApi(id=2, api_address=/polaris/user/userInfo?, request_param=null, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(正常))
+2019-07-17 14:59:21  [ main:14256 ] - [ ERROR ]  http://sirius-dev.ortiot.com/polaris/user/userInfo?接口请求异常请排查!!!--->错误码为：401
+2019-07-17 14:59:23  [ main:16294 ] - [ INFO ]  iot_api表中id为3的查询结果是--->IotApi(id=3, api_address=/polaris/user/userInfo, request_param=, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(异常1))
+2019-07-17 14:59:23  [ main:16404 ] - [ ERROR ]  http://sirius-dev.ortiot.com/polaris/user/userInfo接口请求异常请排查!!!--->错误码为：401
+2019-07-17 14:59:25  [ main:18448 ] - [ INFO ]  iot_api表中id为4的查询结果是--->IotApi(id=4, api_address=/polaris/user/userInfo, request_param=?, request_method=GET, param_type=STRING, assert_value=芙杨Test, case_name=获取登录人信息接口(异常2))
+2019-07-17 14:59:25  [ main:18552 ] - [ ERROR ]  http://sirius-dev.ortiot.com/polaris/user/userInfo接口请求异常请排查!!!--->错误码为：401

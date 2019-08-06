@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.course">
+
+    <!--查询接口信息-->
+    <select id="getApi" parameterType="com.course.model.IotApi" resultType="com.course.model.IotApi">
+        select * from iot_api
+        where id=#{id}
+    </select>
+
+    <!--查询域名-->
+    <select id="getHost" parameterType="com.course.model.IotHost" resultType="com.course.model.IotHost">
+        select * from iot_host
+        where id=#{id}
+    </select>
+
+    <!--获取数据库长度-->
+    <select id="getLength" resultType="Integer">
+        select count(*) from iot_api where 1=1;
+    </select>
+
+    <!--删除测试数据-->
+    <delete id="clearTestData" parameterType="com.course.model.IotHost">
+        delete from iot_host where dev_host LIKE 'test%';
+    </delete>
+
+</mapper>

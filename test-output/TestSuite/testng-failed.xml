@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.course.config.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="CaseCenter(failed)">
+    <classes>
+      <class name="com.course.testcase.SuiteTestCaseCenter">
+        <methods>
+          <include name="test999"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.course.testcase.SuiteTestCaseCenter -->
+    </classes>
+  </test> <!-- CaseCenter(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

@@ -1,0 +1,4 @@
+2019-08-02 10:55:18  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-02 10:55:18  [ main:321 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/thirdparty/apps/AK1119010917185908/token, request_param=success=success
+, request_method=GET, param_type=STRING, assert_value=token, case_name=手机号登录
+)

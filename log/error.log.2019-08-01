@@ -1,0 +1,27 @@
+2019-08-01 15:21:21  [ main:1418 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-01 15:21:21  [ main:1878 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-08-01 15:21:22  [ main:1976 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-08-01 15:21:22  [ main:2042 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-08-01 15:45:18  [ main:553 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-01 15:45:19  [ main:1551 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-08-01 15:45:19  [ main:1694 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-08-01 15:45:19  [ main:1814 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-08-01 15:45:19  [ main:1938 ] - [ ERROR ]  管理员登录
+接口数据库定义的参数请求类型错误！！！
+2019-08-01 21:25:19  [ main:1403 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-01 21:27:12  [ main:366 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-01 21:30:57  [ main:1361 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-01 21:38:48  [ main:347 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token?接口请求异常请排查!!!--->错误码为：401
+2019-08-01 21:43:14  [ main:425 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-01 22:30:14  [ main:1397 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-01 22:54:15  [ main:117 ] - [ ERROR ]  
+2019-08-01 22:55:13  [ main:95 ] - [ ERROR ]  
+2019-08-01 22:55:21  [ main:1310700 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-01 22:57:04  [ main:16507 ] - [ ERROR ]  
+2019-08-01 23:03:27  [ main:5172 ] - [ ERROR ]  Connect to 172.16.0.9:8080 [/172.16.0.9] failed: connect timed out
