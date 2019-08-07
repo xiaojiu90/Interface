@@ -2,135 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ec1900-15e4-4e5c-8c2b-72e41a98da0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IotInterface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error.log.2019-07-17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error.log.2019-07-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error.log.2019-08-01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/info.log.2019-07-17" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/info.log.2019-07-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/info.log.2019-08-01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/info.log.2019-08-02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/config/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/config/MySystemInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/model/IotApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/model/IotHost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/utils/DatabaseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/utils/GetApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/utils/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/utils/ProUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/databaseConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/mysql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/config/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/config/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/config/MySystemInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/controller/SuiteTestCaseCenter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/model/IotApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/model/IotHost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/utils/DatabaseUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/utils/GetApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/utils/HttpClientUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/course/utils/ProUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/databaseConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/mysql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/IOT接口测试/testApi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/IOT接口测试/testApi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/IOT接口测试/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.course.controller.SuiteTestCaseCenter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/testApi.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/IOT接口测试/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/PostLoanInterface.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/PostLoanInterface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TestReport/iotReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TestSuite/CaseCenter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TestSuite/CaseCenter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TestSuite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.course.testcase.SuiteTestCaseCenter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/PostLoanInterface.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/CaseCenter.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TestSuite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/token.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -244,10 +117,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="1938" />
-    <option name="height" value="1029" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1276" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -256,6 +129,8 @@
     </navigator>
     <panes>
       <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,8 +219,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,7 +238,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -543,8 +416,18 @@
       <workItem from="1563684370962" duration="707000" />
       <workItem from="1564555436860" duration="12196000" />
       <workItem from="1564987722387" duration="1015000" />
-      <workItem from="1565076945576" duration="2674000" />
+      <workItem from="1565076945576" duration="5986000" />
+      <workItem from="1565148105968" duration="700000" />
+      <workItem from="1565148882989" duration="2427000" />
     </task>
+    <task id="LOCAL-00001" summary="基础项目代码提交">
+      <created>1565079887689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565079887689</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -580,7 +463,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155952000" />
+    <option name="totallyTimeSpent" value="162391000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,9 +475,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1276" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1276" height="777" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27147487" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2795786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -610,9 +493,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.6379562" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.4350365" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.31678832" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3270073" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.329927" />
@@ -669,7 +552,50 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Interface" />
+    </ignored-roots>
     <MESSAGE value="基础项目代码提交" />
     <option name="LAST_COMMIT_MESSAGE" value="基础项目代码提交" />
   </component>
@@ -696,7 +622,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/log/error.log.2018-11-01" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml" />
     <entry file="file://$PROJECT_DIR$/log/iot.log" />
@@ -1079,6 +1004,9 @@
           <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/testgit">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
