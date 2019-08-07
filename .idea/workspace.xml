@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ec1900-15e4-4e5c-8c2b-72e41a98da0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/testgit" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/testgit" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/course/utils/HttpClientUtil.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/testgit" />
       </list>
     </option>
   </component>
@@ -418,7 +419,7 @@
       <workItem from="1564987722387" duration="1015000" />
       <workItem from="1565076945576" duration="5986000" />
       <workItem from="1565148105968" duration="700000" />
-      <workItem from="1565148882989" duration="2427000" />
+      <workItem from="1565148882989" duration="4175000" />
     </task>
     <task id="LOCAL-00001" summary="基础项目代码提交">
       <created>1565079887689</created>
@@ -463,7 +464,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162391000" />
+    <option name="totallyTimeSpent" value="164139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,7 +496,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.6379562" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.31678832" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49919224" visible="true" weight="0.6189781" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3270073" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.329927" />
@@ -1006,7 +1007,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/testgit">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
