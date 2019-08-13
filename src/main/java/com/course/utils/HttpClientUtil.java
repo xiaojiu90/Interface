@@ -146,7 +146,7 @@ public class HttpClientUtil {
         post.setConfig(requestConfig);
         //添加请求头信息
         post.addHeader("User-Agent", "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.6)");
-        post.addHeader("content-type", "application/json");
+        post.setHeader("content-type", "application/json");
         post.addHeader("X-Source-Platform","iot-mars");
         JSONObject json = JSONObject.fromObject(params);
         StringEntity entity = new StringEntity(json.toString(), "utf-8");
