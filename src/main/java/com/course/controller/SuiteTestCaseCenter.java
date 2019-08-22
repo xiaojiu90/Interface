@@ -46,9 +46,9 @@ public class SuiteTestCaseCenter {
         getApi.getApiInfo(1);
         if (getApi.getRequestParam()!=null){
             String result = httpClientUtil.httpPostJson(RequestHost+getApi.getApiAddress(),getApi.getRequestParam(),getApi.getAssertValue());
-//            String tokenValue = proUtil.getOneJson(result,"access_token");
-//            proUtil.writeProperties("token.properties","access_token",tokenValue);
-//            Thread.sleep(3000);
+            String tokenValue = proUtil.getOneJson(result,"access_token");
+            proUtil.writeProperties("token.properties","access_token",tokenValue);
+            Thread.sleep(3000);
         }else {
             log.error("登陆账号或密码不能为空！！！");
         }
