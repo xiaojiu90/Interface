@@ -11,6 +11,7 @@ import java.util.*;
 @Log4j
 public class SuiteTestCaseCenter {
     GetApi getApi = new GetApi();
+    ExcelUtil excelUtil = new ExcelUtil();
     HttpClientUtil httpClientUtil = new HttpClientUtil();
     ProUtil proUtil = new ProUtil();
     private String RequestHost;
@@ -58,26 +59,28 @@ public class SuiteTestCaseCenter {
      * 遍历请求数据库接口
      * @throws Exception
      */
-    @Test(dataProvider="iotDataProvider")
-    public void testIotApi(IotApi iotApi) throws Exception {
-        for (int id=2;id<=proUtil.getDataBaseRows();id++){
-            getApi.getApiInfo(id);
-            if (getApi.getRequestMethod()!=null && getApi.getParamType()!=null){
-                if (getApi.getRequestMethod().equals("GET")){
-                    httpClientUtil.httpGet(RequestHost+getApi.getApiAddress(),getApi.getRequestParam(),getApi.getAssertValue());
+//    @Test(dataProvider="iotDataProvider")
+    @Test
+    public void testIotApi() throws Exception {
+        for (int id=1;id<=1;id++){
+            excelUtil.readExcel("/Users/zl/Documents/workspace/IotInterface/src/main/resources/TestCase.xls",id);
+            log.info(excelUtil.getApiAddress());
+            if (excelUtil.getApiAddress()!=null && excelUtil.getRequestMethod()!=null){
+                if (excelUtil.getRequestMethod().equals("GET")){
+                    httpClientUtil.httpGet(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),excelUtil.getExpected());
                 }
-                if (getApi.getRequestMethod().equals("POST")){
-                    if (getApi.getParamType().equals("FORM")){
-                        httpClientUtil.httpPostForm(RequestHost+getApi.getApiAddress(),getApi.getRequestParam(),getApi.getAssertValue());
-                    }else if (getApi.getParamType().equals("JSON")){
-                        httpClientUtil.httpPostJson(RequestHost+getApi.getApiAddress(),getApi.getRequestParam(),getApi.getAssertValue());
+                if (excelUtil.getRequestMethod().equals("POST")){
+                    if (excelUtil.getRequestType().equals("FORM")){
+                        httpClientUtil.httpPostForm(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),excelUtil.getExpected());
+                    }else if (excelUtil.getRequestType().equals("JSON")){
+                        httpClientUtil.httpPostJson(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),excelUtil.getExpected());
                     }else{
-                        log.error(getApi.getCaseName()+"接口数据库定义的参数请求类型错误！！！");
+                        log.error(excelUtil.getCaseName()+"接口数据库定义的参数请求类型错误！！！");
                         break;
                     }
                 }
             }else {
-                log.error(getApi.getApiAddress()+"的接口请求方式/参数类型为空或错误，跳出循环体！！！");
+                log.error(excelUtil.getApiAddress()+"的接口数据错误，跳出循环体！！！");
                 break;
             }
             Thread.sleep(2000);
@@ -98,6 +101,12 @@ public class SuiteTestCaseCenter {
         }
         return datas.iterator();
 
+    }
+
+    public static void main(String[] args) throws Exception {
+        SuiteTestCaseCenter as = new SuiteTestCaseCenter();
+        as.getRequestHost();
+        as.testIotApi();
     }
 
 }

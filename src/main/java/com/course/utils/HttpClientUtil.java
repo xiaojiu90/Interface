@@ -52,9 +52,9 @@ public class HttpClientUtil {
                 get = new HttpGet(url);
             }
             get.setConfig(requestConfig);
-            get.addHeader("User-Agent","Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.6)");
-            get.addHeader("Content-Type","application/x-www-form-urlencoded");
-            get.addHeader("X-SAAS-Token", proUtil.readProperties("token.properties","X-SAAS-Token"));
+//            get.addHeader("User-Agent","Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.6)");
+//            get.addHeader("Content-Type","application/x-www-form-urlencoded");
+//            get.addHeader("X-SAAS-Token", proUtil.readProperties("token.properties","X-SAAS-Token"));
             response = httpCilent.execute(get);
             statusCode=response.getStatusLine().getStatusCode();
             result = EntityUtils.toString(response.getEntity(), Consts.UTF_8);

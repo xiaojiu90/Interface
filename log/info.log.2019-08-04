@@ -1,0 +1,19 @@
+2019-08-04 16:11:46  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-04 16:11:46  [ main:226 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token, request_param={"captcha": "777", "client_id": "6c5b600aa6b7e18ce3ca550d9be31037", "client_secret": "b49bd97a224a4568978e9945c6115ca9", "grant_type": "mobile","mobile": "15967115360"}, request_method=GET, param_type=STRING, assert_value=token, case_name=手机号登录
+)
+2019-08-04 16:11:47  [ main:1058 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-04 16:16:21  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-04 16:16:21  [ main:194 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token, request_param={"captcha": "777", "client_id": "6c5b600aa6b7e18ce3ca550d9be31037", "client_secret": "b49bd97a224a4568978e9945c6115ca9", "grant_type": "mobile","mobile": "15967115360"}, request_method=POST, param_type=JSON, assert_value=token, case_name=手机号登录
+)
+2019-08-04 16:16:21  [ main:658 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-04 16:17:56  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-04 16:17:56  [ main:172 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token, request_param={"captcha": "777", "client_id": "6c5b600aa6b7e18ce3ca550d9be31037", "client_secret": "b49bd97a224a4568978e9945c6115ca9", "grant_type": "mobile","mobile": "15967115360"}, request_method=POST, param_type=JSON, assert_value=token, case_name=手机号登录
+)
+2019-08-04 16:23:58  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-04 16:23:58  [ main:328 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token, request_param={"captcha": "777", "client_id": "6c5b600aa6b7e18ce3ca550d9be31037", "client_secret": "b49bd97a224a4568978e9945c6115ca9", "grant_type": "mobile","mobile": "15967115360"}, request_method=POST, param_type=JSON, assert_value=token, case_name=手机号登录
+)
+2019-08-04 17:03:13  [ main:2354760 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token接口请求异常请排查!!!--->错误码为：401
+2019-08-04 17:03:21  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://sirius-dev.ortiot.com, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-04 17:03:21  [ main:75 ] - [ INFO ]  iot_api表中id为1的查询结果是--->IotApi(id=1, api_address=/oauth/token?, request_param={"captcha": "777", "client_id": "6c5b600aa6b7e18ce3ca550d9be31037", "client_secret": "b49bd97a224a4568978e9945c6115ca9", "grant_type": "mobile","mobile": "15967115360"}, request_method=POST, param_type=JSON, assert_value=token, case_name=手机号登录
+)
+2019-08-04 17:03:21  [ main:570 ] - [ ERROR ]  http://sirius-dev.ortiot.com/oauth/token?接口请求异常请排查!!!--->错误码为：401

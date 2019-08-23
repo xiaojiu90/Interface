@@ -4,6 +4,8 @@ import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
+import lombok.extern.log4j.Log4j;
+
 import java.io.*;
 
 /**
@@ -11,8 +13,8 @@ import java.io.*;
  * @author 芙杨
  * @date 2019/08/20
  */
+@Log4j
 public class ExcelUtil {
-    private String[][] cellinfo;
     private String caseId;
     private String apiAddress;
     private String requestMethod;
@@ -21,14 +23,6 @@ public class ExcelUtil {
     private String expected;
     private String headers;
     private String caseName;
-
-    /**
-     * 获取单元格信息
-     * @return
-     */
-    public String[][] getCellinfo() {
-        return cellinfo;
-    }
 
     /**
      * 获取用例ID
@@ -99,8 +93,8 @@ public class ExcelUtil {
      * @throws IOException
      * @throws BiffException
      */
-    public void readExcel() throws IOException, BiffException {
-        Workbook workbook = Workbook.getWorkbook(new File("/Users/zl/Documents/test1.xls"));
+    public void readExcel(String excelPath,int indexNum) throws IOException, BiffException {
+        Workbook workbook = Workbook.getWorkbook(new File(excelPath));
         Sheet sheet = workbook.getSheet(0);
         String cellInfo[][]  = new String[sheet.getRows()][sheet.getColumns()];
         for (int i = 1; i < sheet.getRows(); i++) {
@@ -108,21 +102,25 @@ public class ExcelUtil {
                 Cell cell = sheet.getCell(j, i);
                 cellInfo[i][j] = cell.getContents();
             }
-            this.caseId=cellInfo[i][0];
-            this.apiAddress=cellInfo[i][1];
-            this.requestMethod=cellInfo[i][2];
-            this.requestType=cellInfo[i][3];
-            this.param=cellInfo[i][4];
-            this.expected=cellInfo[i][5];
-            this.headers=cellInfo[i][6];
-            this.caseName=cellInfo[i][7];
+            this.caseId=cellInfo[indexNum][0];
+            this.apiAddress=cellInfo[indexNum][1];
+            this.requestMethod=cellInfo[indexNum][2];
+            this.requestType=cellInfo[indexNum][3];
+            this.param=cellInfo[indexNum][4];
+            this.expected=cellInfo[indexNum][5];
+            this.headers=cellInfo[indexNum][6];
+            this.caseName=cellInfo[indexNum][7];
+            if (this.apiAddress.length()==0){
+                log.error("第"+i+"行接口地址为空退出读取excel数据循环体");
+                break;
+            }
         }
         workbook.close();
     }
 
     public static void main(String[] args) throws IOException, BiffException {
         ExcelUtil as = new ExcelUtil();
-        as.readExcel();
+        as.readExcel("/Users/zl/Documents/workspace/IotInterface/src/main/resources/TestCase.xls",3);
     }
 
 }

@@ -1,0 +1,37 @@
+2019-08-22 17:38:12  [ main:0 ] - [ INFO ]  -------->7
+2019-08-22 18:02:19  [ main:0 ] - [ INFO ]  ------->null
+2019-08-22 18:02:19  [ main:5 ] - [ INFO ]  ------->null
+2019-08-22 18:02:19  [ main:6 ] - [ INFO ]  ------->GET
+2019-08-22 18:02:19  [ main:6 ] - [ INFO ]  ------->GET
+2019-08-22 18:02:19  [ main:6 ] - [ INFO ]  ------->GET
+2019-08-22 18:02:19  [ main:7 ] - [ INFO ]  ------->GET
+2019-08-22 18:03:40  [ main:0 ] - [ INFO ]  ------->GET
+2019-08-22 18:15:46  [ main:0 ] - [ INFO ]  测试3
+2019-08-22 18:37:18  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 18:39:26  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 18:44:47  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 18:44:48  [ main:984 ] - [ ERROR ]  http://wdev.dian.so/oauth/token接口请求异常请排查!!!--->错误码为：405
+2019-08-22 18:44:50  [ main:3182 ] - [ ERROR ]  http://wdev.dian.so/oauth/token接口请求异常请排查!!!--->错误码为：405
+2019-08-22 18:44:53  [ main:5333 ] - [ ERROR ]  http://wdev.dian.so/oauth/token接口请求异常请排查!!!--->错误码为：405
+2019-08-22 18:48:43  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 18:50:35  [ main:0 ] - [ ERROR ]  null/oauth/token接口请求失败--->null
+2019-08-22 18:52:02  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 18:52:02  [ main:668 ] - [ ERROR ]  http://wdev.dian.so/oauth/token接口请求异常请排查!!!--->错误码为：405
+2019-08-22 18:55:08  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 18:59:23  [ main:255826 ] - [ INFO ]  /oauth/token
+2019-08-22 18:59:53  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 19:02:20  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 19:02:20  [ main:243 ] - [ INFO ]  /oauth/token
+2019-08-22 19:02:20  [ main:538 ] - [ ERROR ]  http://wdev.dian.so/oauth/token接口请求异常请排查!!!--->错误码为：405
+2019-08-22 19:02:54  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 19:02:54  [ main:274 ] - [ INFO ]  /oauth/token
+2019-08-22 19:02:54  [ main:482 ] - [ ERROR ]  http://wdev.dian.so/oauth/token接口请求异常请排查!!!--->错误码为：405
+2019-08-22 19:06:47  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=http://wdev.dian.so, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 19:06:48  [ main:280 ] - [ INFO ]  /leo/account/queryAccountList?t=1566467355029&data=%7B%22settleSubjectId%22%3A%220%22%2C%22pageNo%22%3A1%2C%22pageSize%22%3A10%2C%22mainBizType%22%3A%221%22%7D
+2019-08-22 19:06:49  [ main:1929 ] - [ INFO ]  http://wdev.dian.so/leo/account/queryAccountList?t=1566467355029&data=%7B%22settleSubjectId%22%3A%220%22%2C%22pageNo%22%3A1%2C%22pageSize%22%3A10%2C%22mainBizType%22%3A%221%22%7D接口返回的响应信息为--->{"success":false,"code":206,"msg":"需要登录"}
+2019-08-22 19:18:40  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=https://www.baidu.com, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 19:18:40  [ main:369 ] - [ INFO ]  /sugrec?prod=pc_his&from=pc_web&json=1&sid=1440_21123_29523_29520_29099_29568_29220_26350_29640&hisdata=%5B%7B%22time%22%3A1566453857%2C%22kw%22%3A%22%E6%9D%AD%E5%B7%9E%E6%BC%82%E6%B5%81%22%7D%5D&req=2&csor=0&cb=jQuery110206097452805486347_1566472515649&_=1566472515650
+2019-08-22 19:18:41  [ main:881 ] - [ INFO ]  https://www.baidu.com/sugrec?prod=pc_his&from=pc_web&json=1&sid=1440_21123_29523_29520_29099_29568_29220_26350_29640&hisdata=%5B%7B%22time%22%3A1566453857%2C%22kw%22%3A%22%E6%9D%AD%E5%B7%9E%E6%BC%82%E6%B5%81%22%7D%5D&req=2&csor=0&cb=jQuery110206097452805486347_1566472515649&_=1566472515650接口返回的响应信息为--->jQuery110206097452805486347_1566472515649({"q":"","p":false,"bs":"","csor":"0","err_no":0,"errmsg":"","g":[{"type":"his_normal","sa":"h_1","q":"杭州漂流"}]})
+2019-08-22 19:52:06  [ main:0 ] - [ INFO ]  iot_host表中hostId为1的查询结果是--->IotHost(id=1, dev_host=https://www.baidu.com, real_host=http://sirius.ortiot.com, local_host=http://172.16.0.9:8080)
+2019-08-22 19:52:06  [ main:305 ] - [ INFO ]  /sugrec?prod=pc_his&from=pc_web&json=1&sid=1440_21123_29523_29520_29099_29568_29220_26350_29640&hisdata=%5B%7B%22time%22%3A1566453857%2C%22kw%22%3A%22%E6%9D%AD%E5%B7%9E%E6%BC%82%E6%B5%81%22%7D%5D&req=2&csor=0&cb=jQuery110206097452805486347_1566472515649&_=1566472515650
+2019-08-22 19:52:06  [ main:760 ] - [ INFO ]  https://www.baidu.com/sugrec?prod=pc_his&from=pc_web&json=1&sid=1440_21123_29523_29520_29099_29568_29220_26350_29640&hisdata=%5B%7B%22time%22%3A1566453857%2C%22kw%22%3A%22%E6%9D%AD%E5%B7%9E%E6%BC%82%E6%B5%81%22%7D%5D&req=2&csor=0&cb=jQuery110206097452805486347_1566472515649&_=1566472515650接口返回的响应信息为--->jQuery110206097452805486347_1566472515649({"q":"","p":false,"bs":"","csor":"0","err_no":0,"errmsg":"","g":[{"type":"his_normal","sa":"h_1","q":"杭州漂流"}]})
