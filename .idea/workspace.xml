@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ec1900-15e4-4e5c-8c2b-72e41a98da0d" name="Default Changelist" comment="基础项目代码提交">
-      <change beforePath="$PROJECT_DIR$/TestCase.xls" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/course/utils/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/utils/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/course/utils/ProUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/utils/ProUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="65" column="34" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+            <state relative-caret-position="114">
+              <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/course/utils/ExcelUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="519">
               <caret line="181" column="5" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/course/utils/ProUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="-546">
               <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -150,9 +149,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/testgit" />
         <option value="$PROJECT_DIR$/src/main/java/com/course/utils/HttpClientUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/course/utils/ProUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/course/utils/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java" />
       </list>
     </option>
   </component>
@@ -312,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcelUtil">
+  <component name="RunManager" selected="TestNG.SuiteTestCaseCenter.login">
     <configuration name="ExcelUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.course.utils.ExcelUtil" />
       <module name="com.base.test" />
@@ -420,10 +419,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SuiteTestCaseCenter.login" />
         <item itemvalue="Application.ExcelUtil" />
         <item itemvalue="Application.SuiteTestCaseCenter" />
         <item itemvalue="TestNG.SuiteTestCaseCenter.testIotApi" />
-        <item itemvalue="TestNG.SuiteTestCaseCenter.login" />
         <item itemvalue="TestNG.SuiteTestCaseCenter.accessToken" />
       </list>
     </recent_temporary>
@@ -487,7 +486,7 @@
       <workItem from="1566606916626" duration="3820000" />
       <workItem from="1567259509211" duration="31000" />
       <workItem from="1567431489240" duration="321000" />
-      <workItem from="1567512943825" duration="4127000" />
+      <workItem from="1567512943825" duration="4807000" />
     </task>
     <task id="LOCAL-00001" summary="基础项目代码提交">
       <created>1565079887689</created>
@@ -500,9 +499,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SuiteTestCaseCenter_accessToken - 2019.08.02 at 10h 55m 18s.xml">
-      <configuration name="SuiteTestCaseCenter.accessToken" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SuiteTestCaseCenter_login - 2019.08.04 at 16h 11m 47s.xml">
       <configuration name="SuiteTestCaseCenter.login" configurationId="TestNG" />
     </history-entry>
@@ -530,9 +526,12 @@
     <history-entry file="SuiteTestCaseCenter_testIotApi - 2019.08.22 at 18h 48m 43s.xml">
       <configuration name="SuiteTestCaseCenter.testIotApi" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SuiteTestCaseCenter_login - 2019.09.03 at 23h 16m 02s.xml">
+      <configuration name="SuiteTestCaseCenter.login" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240838000" />
+    <option name="totallyTimeSpent" value="241518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +546,7 @@
     <frame x="-3" y="23" width="1278" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2710356" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2710356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1065,29 +1064,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="65" column="34" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/course/utils/ProUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/course/utils/ExcelUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="519">
           <caret line="181" column="5" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1115,6 +1094,26 @@
             <element signature="e#1859#1860#0" expanded="true" />
             <element signature="e#1942#1943#0" expanded="true" />
             <element signature="e#1974#1975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/course/utils/ProUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

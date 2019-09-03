@@ -2,6 +2,7 @@ package com.course.controller;
 
 import com.course.model.*;
 import com.course.utils.*;
+import jxl.read.biff.BiffException;
 import lombok.extern.log4j.Log4j;
 import org.apache.ibatis.session.SqlSession;
 import org.testng.annotations.*;
@@ -23,10 +24,9 @@ public class SuiteTestCaseCenter {
      * @throws IOException
      */
     @BeforeClass
-    public void getRequestHost() throws IOException {
-        getApi.getHost(1);
-        this.RequestHost = getApi.getDevtHost();
-        this.LocalHsot = getApi.getLocalHost();
+    public void getRequestHost() throws IOException, BiffException {
+        excelUtil.readHost("TestCase.xls",1);
+        this.RequestHost = excelUtil.getDevHost();
     }
 
     /**
@@ -39,16 +39,14 @@ public class SuiteTestCaseCenter {
     }
 
     /**
-     * 登陆后台
+     * 登陆
      * @throws Exception
      */
     @Test
     public void login() throws Exception {
-        getApi.getApiInfo(1);
-        if (getApi.getRequestParam()!=null){
-            String result = httpClientUtil.httpPostJson(RequestHost+getApi.getApiAddress(),getApi.getRequestParam(),getApi.getAssertValue());
-            String tokenValue = proUtil.getOneJson(result,"access_token");
-            proUtil.writeProperties("token.properties","access_token",tokenValue);
+        excelUtil.readApiInfo("TestCase.xls");
+        if (excelUtil.getApiAddress()!=null){
+            String result = httpClientUtil.httpGet(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),getApi.getAssertValue());
             Thread.sleep(3000);
         }else {
             log.error("登陆账号或密码不能为空！！！");
