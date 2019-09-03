@@ -63,7 +63,7 @@ public class SuiteTestCaseCenter {
     @Test
     public void testIotApi() throws Exception {
         for (int i=1;i<=excelUtil.getExcelCountRows();i++){
-            excelUtil.readExcel("TestCase.xls");
+            excelUtil.readApiInfo("TestCase.xls");
             log.info(excelUtil.getApiAddress());
             if (excelUtil.getApiAddress()!=null && excelUtil.getRequestMethod()!=null){
                 if (excelUtil.getRequestMethod().equals("GET")){

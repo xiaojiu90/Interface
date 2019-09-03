@@ -32,7 +32,7 @@ public class ProUtil{
      * @throws BiffException
      */
     public int getExcelCountRows(String excelPath) throws IOException, BiffException {
-        excelUtil.readExcel(excelPath);
+        excelUtil.readApiInfo(excelPath);
         return excelUtil.getExcelCountRows();
     }
 
