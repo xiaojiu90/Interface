@@ -1,6 +1,7 @@
 package com.course.utils;
 
 import com.alibaba.fastjson.*;
+import jxl.read.biff.BiffException;
 import lombok.extern.log4j.Log4j;
 import org.apache.ibatis.session.SqlSession;
 import java.io.*;
@@ -9,8 +10,9 @@ import java.util.regex.*;
 
 @Log4j
 public class ProUtil{
+    ExcelUtil excelUtil = new ExcelUtil();
     Properties properties = new Properties();
-    private int countRows;
+    private int dataCountRows;
 
     /**
      * 获取数据库总行数
@@ -19,8 +21,19 @@ public class ProUtil{
      */
     public int getDataBaseRows() throws IOException {
         SqlSession session = DatabaseUtil.getSqlSession();
-        this.countRows = session.selectOne("getLength");
-        return  countRows;
+        this.dataCountRows = session.selectOne("getLength");
+        return  dataCountRows;
+    }
+
+    /**
+     * 获取数据库总行数
+     * @return
+     * @throws IOException
+     * @throws BiffException
+     */
+    public int getExcelCountRows(String excelPath) throws IOException, BiffException {
+        excelUtil.readExcel(excelPath);
+        return excelUtil.getExcelCountRows();
     }
 
     /**
@@ -77,7 +90,6 @@ public class ProUtil{
         JSONObject jsonObject = JSONObject.parseObject(content);
         return jsonObject.getString(key);
     }
-
 
     /**
      * 提取多层json值(value里包含一个json)

@@ -39,7 +39,7 @@ public class SuiteTestCaseCenter {
     }
 
     /**
-     * iot登陆(获取token)
+     * 登陆后台
      * @throws Exception
      */
     @Test
@@ -62,8 +62,8 @@ public class SuiteTestCaseCenter {
 //    @Test(dataProvider="iotDataProvider")
     @Test
     public void testIotApi() throws Exception {
-        for (int id=1;id<=1;id++){
-            excelUtil.readExcel("/Users/zl/Documents/workspace/IotInterface/src/main/resources/TestCase.xls",id);
+        for (int i=1;i<=excelUtil.getExcelCountRows();i++){
+            excelUtil.readExcel("TestCase.xls");
             log.info(excelUtil.getApiAddress());
             if (excelUtil.getApiAddress()!=null && excelUtil.getRequestMethod()!=null){
                 if (excelUtil.getRequestMethod().equals("GET")){
@@ -83,7 +83,7 @@ public class SuiteTestCaseCenter {
                 log.error(excelUtil.getApiAddress()+"的接口数据错误，跳出循环体！！！");
                 break;
             }
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         }
     }
 
