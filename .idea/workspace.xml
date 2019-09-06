@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ec1900-15e4-4e5c-8c2b-72e41a98da0d" name="Default Changelist" comment="基础项目代码提交">
-      <change beforePath="$PROJECT_DIR$/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,60 +40,12 @@
     <favorites_list name="IotInterface" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/course/utils/ExcelUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="181" column="5" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1287#1288#0" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
-                <element signature="e#1397#1398#0" expanded="true" />
-                <element signature="e#1428#1429#0" expanded="true" />
-                <element signature="e#1518#1519#0" expanded="true" />
-                <element signature="e#1555#1556#0" expanded="true" />
-                <element signature="e#1715#1716#0" expanded="true" />
-                <element signature="e#1745#1746#0" expanded="true" />
-                <element signature="e#1828#1829#0" expanded="true" />
-                <element signature="e#1859#1860#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
-                <element signature="e#1974#1975#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/course/utils/ProUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-546">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="294">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,6 +197,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IotInterface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IotInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,6 +222,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,7 +446,8 @@
       <workItem from="1566606916626" duration="3820000" />
       <workItem from="1567259509211" duration="31000" />
       <workItem from="1567431489240" duration="321000" />
-      <workItem from="1567512943825" duration="4807000" />
+      <workItem from="1567512943825" duration="6037000" />
+      <workItem from="1567752285414" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="基础项目代码提交">
       <created>1565079887689</created>
@@ -499,12 +460,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SuiteTestCaseCenter_login - 2019.08.04 at 16h 11m 47s.xml">
-      <configuration name="SuiteTestCaseCenter.login" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SuiteTestCaseCenter_login - 2019.08.04 at 16h 16m 22s.xml">
-      <configuration name="SuiteTestCaseCenter.login" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SuiteTestCaseCenter_login - 2019.08.04 at 16h 19m 52s.xml">
       <configuration name="SuiteTestCaseCenter.login" configurationId="TestNG" />
     </history-entry>
@@ -529,9 +484,15 @@
     <history-entry file="SuiteTestCaseCenter_login - 2019.09.03 at 23h 16m 02s.xml">
       <configuration name="SuiteTestCaseCenter.login" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SuiteTestCaseCenter_login - 2019.09.03 at 23h 17m 07s.xml">
+      <configuration name="SuiteTestCaseCenter.login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SuiteTestCaseCenter_login - 2019.09.03 at 23h 21m 34s.xml">
+      <configuration name="SuiteTestCaseCenter.login" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241518000" />
+    <option name="totallyTimeSpent" value="243268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,10 +504,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="23" width="1278" height="770" extended-state="6" />
+    <frame x="0" y="23" width="1276" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2710356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2706645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -556,8 +517,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.42330384" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53138685" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.42330384" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53097343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1040,12 +1001,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/error.log">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="84">
           <caret line="4" column="100" lean-forward="true" selection-start-line="4" selection-start-column="96" selection-end-line="4" selection-end-column="100" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/course/utils/HttpClientUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1066,7 +1027,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/course/utils/ExcelUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
+        <state relative-caret-position="1044">
           <caret line="181" column="5" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1110,8 +1071,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/course/controller/SuiteTestCaseCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        <state relative-caret-position="294">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

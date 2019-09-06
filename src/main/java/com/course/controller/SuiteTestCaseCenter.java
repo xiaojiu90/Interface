@@ -11,13 +11,10 @@ import java.util.*;
 
 @Log4j
 public class SuiteTestCaseCenter {
-    GetApi getApi = new GetApi();
     ExcelUtil excelUtil = new ExcelUtil();
     HttpClientUtil httpClientUtil = new HttpClientUtil();
     ProUtil proUtil = new ProUtil();
     private String RequestHost;
-    private String LocalHsot;
-
 
     /**
      * 获取接口访问域名
@@ -46,7 +43,7 @@ public class SuiteTestCaseCenter {
     public void login() throws Exception {
         excelUtil.readApiInfo("TestCase.xls");
         if (excelUtil.getApiAddress()!=null){
-            String result = httpClientUtil.httpGet(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),getApi.getAssertValue());
+            String result = httpClientUtil.httpGet(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),excelUtil.getExpected());
             Thread.sleep(3000);
         }else {
             log.error("登陆账号或密码不能为空！！！");
