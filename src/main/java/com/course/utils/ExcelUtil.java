@@ -25,7 +25,6 @@ public class ExcelUtil {
     private int excelCountRows;
     private String devHost;
     private String realHost;
-    private String localHost;
 
     /**
      * 获取用例ID
@@ -108,7 +107,7 @@ public class ExcelUtil {
     }
 
     /**
-     * 获取生成环境域名
+     * 获取生产环境域名
      * @return
      */
     public String getRealHost() {
@@ -116,19 +115,11 @@ public class ExcelUtil {
     }
 
     /**
-     * 获取本地环境域名
-     * @return
-     */
-    public String getLocalHost() {
-        return localHost;
-    }
-
-    /**
      * 获取excel表接口信息
      * @throws IOException
      * @throws BiffException
      */
-    public void readApiInfo(String excelPath) throws IOException, BiffException {
+    public void readApiInfo(String excelPath,int rowNum) throws IOException, BiffException {
         Workbook workbook = Workbook.getWorkbook(new File(excelPath));
         Sheet sheet = workbook.getSheet(0);
         String cellInfo[][]  = new String[sheet.getRows()][sheet.getColumns()];
@@ -137,16 +128,16 @@ public class ExcelUtil {
                 Cell cell = sheet.getCell(j, i);
                 cellInfo[i][j] = cell.getContents();
             }
-            this.caseId=cellInfo[i][0];
-            this.apiAddress=cellInfo[i][1];
-            this.requestMethod=cellInfo[i][2];
-            this.requestType=cellInfo[i][3];
-            this.param=cellInfo[i][4];
-            this.expected=cellInfo[i][5];
-            this.headers=cellInfo[i][6];
-            this.caseName=cellInfo[i][7];
+            this.caseId=cellInfo[rowNum][0];
+            this.apiAddress=cellInfo[rowNum][1];
+            this.requestMethod=cellInfo[rowNum][2];
+            this.requestType=cellInfo[rowNum][3];
+            this.param=cellInfo[rowNum][4];
+            this.expected=cellInfo[rowNum][5];
+            this.headers=cellInfo[rowNum][6];
+            this.caseName=cellInfo[rowNum][7];
             this.excelCountRows = i;
-            if (this.apiAddress.length()==0){
+            if (cellInfo[i][1].length()==0){
                 log.error("第"+i+"行接口地址为空跳出读取apiInfo数据循环体");
                 break;
             }
@@ -158,11 +149,11 @@ public class ExcelUtil {
     /**
      * 获取接口访问域名
      * @param excelPath
-     * @param RowsNum
+     * @param rowNum
      * @throws IOException
      * @throws BiffException
      */
-    public void readHost(String excelPath,int RowsNum) throws IOException, BiffException {
+    public void readHost(String excelPath,int rowNum) throws IOException, BiffException {
         Workbook workbook = Workbook.getWorkbook(new File(excelPath));
         Sheet sheet = workbook.getSheet(1);
         String cellInfo[][] = new String[sheet.getRows()][sheet.getColumns()];
@@ -171,9 +162,8 @@ public class ExcelUtil {
                 Cell cell = sheet.getCell(j, i);
                 cellInfo[i][j] = cell.getContents();
             }
-            this.devHost=cellInfo[RowsNum][1];
-            this.realHost=cellInfo[RowsNum][2];
-            this.localHost=cellInfo[RowsNum][3];
+            this.devHost=cellInfo[rowNum][1];
+            this.realHost=cellInfo[rowNum][2];
             if (this.devHost.length()==0||this.realHost.length()==0){
                 log.error("第"+i+"行接口地址为空跳出读取host数据循环体");
                 break;

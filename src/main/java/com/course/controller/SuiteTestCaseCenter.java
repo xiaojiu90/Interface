@@ -41,26 +41,42 @@ public class SuiteTestCaseCenter {
      */
     @Test
     public void login() throws Exception {
-        excelUtil.readApiInfo("TestCase.xls");
-        if (excelUtil.getApiAddress()!=null){
-            String result = httpClientUtil.httpGet(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),excelUtil.getExpected());
-            Thread.sleep(3000);
-        }else {
-            log.error("登陆账号或密码不能为空！！！");
+        int loginRows = 1;
+        for (int i=1;i<=loginRows;i++){
+            excelUtil.readApiInfo("TestCase.xls",loginRows);
+            if (excelUtil.getApiAddress().length()!=0){
+                if (excelUtil.getRequestMethod().equals("GET")){
+                    String result = httpClientUtil.httpGet(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),excelUtil.getExpected());
+                    Thread.sleep(2000);
+                }
+                if (excelUtil.getRequestMethod().equals("POST")){
+                    if (excelUtil.getRequestType().equals("FORM")){
+                        httpClientUtil.httpPostForm(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),excelUtil.getExpected());
+                    }else if (excelUtil.getRequestType().equals("JSON")){
+                        httpClientUtil.httpPostJson(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),excelUtil.getExpected());
+                    }else{
+                        log.error(excelUtil.getCaseName()+"接口数据库定义的参数请求类型错误！！！");
+                    }
+                }
+
+            }else {
+                log.error("第"+excelUtil.getCaseId()+"行接口信息录入错误！！！");
+            }
         }
+
     }
 
     /**
-     * 遍历请求数据库接口
+     * 遍历请求excel表接口
      * @throws Exception
      */
 //    @Test(dataProvider="iotDataProvider")
-    @Test
+    @Test(dependsOnMethods = {"login"})
     public void testIotApi() throws Exception {
-        for (int i=1;i<=excelUtil.getExcelCountRows();i++){
-            excelUtil.readApiInfo("TestCase.xls");
+        for (int i=2;i<=excelUtil.getExcelCountRows();i++){
+            excelUtil.readApiInfo("TestCase.xls",i);
             log.info(excelUtil.getApiAddress());
-            if (excelUtil.getApiAddress()!=null && excelUtil.getRequestMethod()!=null){
+            if (excelUtil.getApiAddress().length()!=0){
                 if (excelUtil.getRequestMethod().equals("GET")){
                     httpClientUtil.httpGet(RequestHost+excelUtil.getApiAddress(),excelUtil.getParam(),excelUtil.getExpected());
                 }
@@ -75,7 +91,7 @@ public class SuiteTestCaseCenter {
                     }
                 }
             }else {
-                log.error(excelUtil.getApiAddress()+"的接口数据错误，跳出循环体！！！");
+                log.error("第"+excelUtil.getCaseId()+"行接口信息录入错误！！！");
                 break;
             }
             Thread.sleep(1000);
@@ -96,12 +112,6 @@ public class SuiteTestCaseCenter {
         }
         return datas.iterator();
 
-    }
-
-    public static void main(String[] args) throws Exception {
-        SuiteTestCaseCenter as = new SuiteTestCaseCenter();
-        as.getRequestHost();
-        as.testIotApi();
     }
 
 }
